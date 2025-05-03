@@ -1,0 +1,83 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family:sans-serif;
+}
+#name{
+    display:inline-block;
+    width:max-content;
+    margin:0;
+}
+#nav{
+    margin:0;
+    float:right;
+}
+hr{
+    height:3px;
+    background-color:black;
+}
+.menu{
+    display:block;
+    float:right;
+    list-style-type:none;
+    padding:5px;
+    padding-right:10px;
+    margin:0;
+}
+#sub{
+    font-size:medium;
+    color:grey;
+}
+#head{
+    text-align:center;
+    font-size: xx-large;
+    margin-bottom:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#front{
+    margin-bottom:0px;
+}
+.col{
+    border:2px solid;
+    float:left;
+    width:33.33%;
+    height:300px;
+}
+.teachers{
+    display:flex;
+    flex-wrap:nowrap;
+    margin:30px 50px;
+}
+
+.teacher{
+    width:25%;
+    border:3px solid;
+    padding:1%;
+    border-radius: 20px;
+    margin-right:50px;
+    margin-left:50px;
+}
+#reviews{
+    font-family:Comic 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#projects-links{
+    list-style-type: none;
+    padding-left:0;
+    margin-left:0;
+}
+#projects-links li{
+    padding:10px;
+    padding-bottom:5px;
+    border-bottom:2px solid;
+}
+#projects-links li:last-child{
+    border:0px;
+}
+#foot{
+    margin-top:100px;
+    padding:5%;
+    font-size:larger;
+    font-family:Comic 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+}
